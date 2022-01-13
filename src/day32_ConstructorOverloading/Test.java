@@ -11,7 +11,7 @@ public class Test {
     }
 
     public Test(double a){    //ABC
-        this(10);//    
+        this(10);//
         System.out.println("C");
     }
 
@@ -19,6 +19,7 @@ public class Test {
         this(2.5);//    
         System.out.println("D"); // ABCD
     }
+
 
     public static void main(String[] args) {
         
