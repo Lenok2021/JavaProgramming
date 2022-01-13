@@ -1,7 +1,7 @@
 package day38_Inheritance.carTask;
 
-public class Tesla extends Car{
-    public Tesla( String model, int year, double price, String color, int miles) {
+public class BMW extends Car{
+    public BMW(String model, int year, double price, String color, int miles) {
         super("BMW", model, year, price, color, miles);
 
 
