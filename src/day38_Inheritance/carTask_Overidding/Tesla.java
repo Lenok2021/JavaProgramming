@@ -1,4 +1,4 @@
-package day38_Inheritance.carTask;
+package day38_Inheritance.carTask_Overidding;
 
 public class Tesla extends Car {
     public Tesla(String model, int year, double price, String color, int miles) {

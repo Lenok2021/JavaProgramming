@@ -1,4 +1,4 @@
-package day38_Inheritance.carTask;
+package day38_Inheritance.carTask_Overidding;
 
 public class Toyota extends Car{
     public Toyota(String model, int year, double price, String color, int miles) {
