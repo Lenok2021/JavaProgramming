@@ -11,6 +11,6 @@ public class Tesla extends Car {
 
     @Override
     public void start() {
-        System.out.println("Starting very fast");
+        System.out.println("Starting very fast "+ brand+ " "+model);
     }
 }
