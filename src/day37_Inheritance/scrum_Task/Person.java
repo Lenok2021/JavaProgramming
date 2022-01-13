@@ -13,11 +13,11 @@ public class Person {
     }
 
     public void eat(String food){
-        System.out.println(name + " is eating"+food);
+        System.out.println(name + " is eating "+food );
     }
 
     public void drink(String drink){
-        System.out.println(name + " is drinking"+drink);
+        System.out.println(name + " is drinking "+drink);
     }
 
     public String toString() {
@@ -30,6 +30,7 @@ public class Person {
 
 
 }
+
 
 /*
 Create a class named Person
