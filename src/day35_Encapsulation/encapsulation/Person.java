@@ -6,7 +6,7 @@ public class Person {
    private int age;
    private int groupNumber;
 
-   public String getName(){// return time , no parameters
+   public String getName(){// return name , no parameters
       return name;
    }
 
