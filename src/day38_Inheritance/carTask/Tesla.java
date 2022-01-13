@@ -9,4 +9,8 @@ public class Tesla extends Car {
         System.out.println(brand + " "+ model + " is spacing");
     }
 
+    @Override
+    public void start() {
+        System.out.println("Starting very fast");
+    }
 }
