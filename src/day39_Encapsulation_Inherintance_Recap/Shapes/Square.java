@@ -20,4 +20,6 @@ public class Square extends Shapes {
         super("Square");  //
         setSide(side);// we can add  setter here,  when the user put any data, the condition will be checked
     }
+
+
 }
