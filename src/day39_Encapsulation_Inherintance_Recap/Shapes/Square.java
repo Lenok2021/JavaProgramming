@@ -12,6 +12,7 @@ public class Square extends Shapes {
     public void setSide(double side) {  // setter responsible for setting data
         if (side <= 0) {
             System.err.println("Invalid side: " + side);
+            System.exit(1);  //  we put  1   - something wrong in code
         }
         this.side = side;
     }
