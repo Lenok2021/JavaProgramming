@@ -9,7 +9,6 @@ public class AnimalObject {
       dog1.bark();
 
 
-
       Cat cat1 = new Cat("Bob","British",'M',5,"Small","Orange");
       System.out.println(cat1);
       cat1.scratch();
