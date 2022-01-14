@@ -1,4 +1,4 @@
-package day39_Encapsulation_Inherintance_Recap.Shapes.CydeoTask;
+package day39_Encapsulation_Inherintance_Recap.CydeoTask1;
 
 public class Person {
 
@@ -45,9 +45,9 @@ public class Person {
     }
 
     public Person(String name, int age, char gender) {
-       setName(name);
-       setAge(age);
-       setGender(getGender());
+        setName(name);
+        setAge(age);
+        setGender(getGender());
     }
 
     public void eat(){
@@ -71,4 +71,7 @@ public class Person {
                 ", gender=" + gender +
                 '}';
     }
+
+
+
 }

@@ -1,7 +1,6 @@
-package day39_Encapsulation_Inherintance_Recap.Shapes.CydeoTask;
+package day39_Encapsulation_Inherintance_Recap.CydeoTask1;
 
 public class Employee extends Person{
-
 
     private int employeeID;
     private String jobTitle;
@@ -54,4 +53,5 @@ public class Employee extends Person{
                 ", salary=" + salary +
                 '}';
     }
+
 }
