@@ -11,11 +11,11 @@ public class Shapes {
 
     public void setName(String name) {
         if (name == null) {
-            System.out.println("Name can not be null");
+            System.err.println("Name can not be null");
             System.exit(1);// 1:  something went wrong
         }
         if (name.isEmpty() || name.isBlank()) {
-            System.out.println("Invalid name");
+            System.err.println("Invalid name");
             System.exit(1);// 1:  something went wrong
         }
         this.name = name;
