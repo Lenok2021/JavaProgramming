@@ -32,6 +32,22 @@ public class Shapes {
         return 0;
     }
 
+/*
+    @Override
+    public String toString() {  // this is also overridden method  from Object Class
+        return super.toString();
+    }
+
+    */
+
+    @Override
+    public String toString() {
+        return "Shapes{" +
+                " name='" + name + '\'' +
+                " Area ='" + area() + '\'' +
+                " Perimeter ='" + perimeter() + '\'' +
+                '}';
+    }
 }
 
 
