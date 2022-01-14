@@ -28,10 +28,18 @@ public class Student extends Person {   //  has  IS  A  relationship  with  PERS
     }
 
     public void study() {
-        System.out.println(getName()+ " is studying");
+        System.out.println(getName() + " is studying");
     }
 
-
-
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + getName() + '\'' +
+                ", age=" + getAge() +
+                ", gender=" + getGender() +
+                " studentId=" + studentId +
+                ", fieldOfStudy='" + fieldOfStudy + '\'' +
+                '}';
+    }
 
 }
