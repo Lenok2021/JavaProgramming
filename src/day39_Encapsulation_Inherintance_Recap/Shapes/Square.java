@@ -21,5 +21,22 @@ public class Square extends Shapes {
         setSide(side);// we can add  setter here,  when the user put any data, the condition will be checked
     }
 
+    @Override
+    public double area() {
+        return side*side;
+    }
 
+    @Override
+    public double perimeter() {
+        return side*4;
+    }
+
+    @Override
+    public String toString() {
+        return "Square{" +
+                "side=" + side +
+                " Area ='" + area() + '\'' +
+                " Perimeter ='" + perimeter() + '\'' +
+                '}';
+    }
 }
