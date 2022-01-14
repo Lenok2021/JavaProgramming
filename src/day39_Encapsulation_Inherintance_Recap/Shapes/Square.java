@@ -2,7 +2,7 @@ package day39_Encapsulation_Inherintance_Recap.Shapes;
 
 public class Square extends Shapes {
 
-    //1)  we give  instance variables that can not be inherited
+    //1)  we give  instance variables that can not be inherited  first
     private double side;
 
     public double getSide() {
