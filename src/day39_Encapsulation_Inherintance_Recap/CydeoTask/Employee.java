@@ -1,4 +1,4 @@
-package day39_Encapsulation_Inherintance_Recap.CydeoTask1;
+package day39_Encapsulation_Inherintance_Recap.CydeoTask;
 
 public class Employee extends Person{
 
