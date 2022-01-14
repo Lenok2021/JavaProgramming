@@ -25,9 +25,9 @@ public class Shapes {
         setName(name);
     }
 
-    public double area(){ //  this  implementation has never been used
+    public double area(){ //  this  implementation will never been used
         // if I am not going to use this implementation I can put even 10
-        return 0;  // later in polymorphism we gonna creat methods with no body.
+        return 0;  // later in polymorphism we gonna creat methods with no body
     }
     /*
     public String print(){
