@@ -11,7 +11,7 @@ public class Person {
     }
 
     public void setName(String name) {
-        if(name.isEmpty()){
+        if(name.isEmpty()|| name.isBlank()){
             System.out.println("Invalid name "+ name);
             System.exit(1);
         }
@@ -35,7 +35,9 @@ public class Person {
     }
 
     public void setGender(char gender) {
-
+        if(!(gender=='M' || gender =='F')){
+            System.out.println("Invalid gender: "+ gender);
+        }
         this.gender = gender;
     }
 
