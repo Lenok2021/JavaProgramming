@@ -35,11 +35,6 @@ public class Person {
     }
 
     public void setGender(char gender) {
-        if(gender!='F'){
-            System.out.println("Invalid gender "+ gender);
-            System.exit(1);
-
-        }
 
         this.gender = gender;
     }
@@ -47,7 +42,7 @@ public class Person {
     public Person(String name, int age, char gender) {
         setName(name);
         setAge(age);
-        setGender(getGender());
+        setGender(gender);
     }
 
     public void eat(){
