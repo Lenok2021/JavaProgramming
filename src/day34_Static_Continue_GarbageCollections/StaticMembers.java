@@ -5,7 +5,7 @@ public class StaticMembers { //  in java only one class can be public, others ha
     //  nested class,  outer class, inner class is static.
     int a;
 
-    class class1{
+    class class1 {
 
     }
 
