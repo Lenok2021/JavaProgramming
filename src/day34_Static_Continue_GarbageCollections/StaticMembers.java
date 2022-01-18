@@ -55,7 +55,7 @@ class X{
 
 class Y {
 }
-    class Z{  // in this case  class Q belongs to Q
+    class Z{  // in this case  class Q belongs to Z
         static class Q{
 
         }
