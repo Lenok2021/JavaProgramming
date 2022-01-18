@@ -53,8 +53,9 @@ class X{
 
 }
 
-class Y{
-   static class Z{  // in this case  class Z belongs to Y
+class Y {
+}
+    class Z{  // in this case  class Z belongs to Y
         static class Q{
 
         }
@@ -65,4 +66,3 @@ class Y{
 
 
 
-}
