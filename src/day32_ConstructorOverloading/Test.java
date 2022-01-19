@@ -1,7 +1,8 @@
 package day32_ConstructorOverloading;
 
 public class Test {
-    
+
+
     public Test(){ 
         System.out.println("A");  
     }
@@ -21,9 +22,11 @@ public class Test {
     }
 
 
+
     public static void main(String[] args) {
         
-       Test test1 =  new Test("Elena");
+          Test test1 = new Test("Elena");
+          System.out.println(test1);
 
 
         
