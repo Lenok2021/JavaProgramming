@@ -16,7 +16,9 @@ public class Person {
         this.age = age;
         this.gender = gender;
     }
-
+   public static void drive(){
+       System.out.println("hello");
+   }
    public void eat(String food){
        System.out.println(name+ " is eating "+ food);
    }

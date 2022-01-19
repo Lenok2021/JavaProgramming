@@ -20,6 +20,7 @@ public class EmployeeObject {
         System.out.println( employee3.name +" : "+employee3.salary);
 
 
+
         System.out.println( employee1.isHuman );
         System.out.println( employee2.isHuman );
         System.out.println( employee3.isHuman );
