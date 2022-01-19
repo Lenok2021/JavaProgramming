@@ -25,11 +25,13 @@ public class EmployeeObject {
         System.out.println(isHuman);
         System.out.println(isAnimal);
 
+
+
         System.out.println( employee1.isHuman );
         System.out.println( employee2.isHuman );
         System.out.println( employee3.isHuman );
 
-       Employee.eat();
+
 
 
 
