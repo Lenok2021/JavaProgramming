@@ -12,7 +12,7 @@ public class Test {
     }
 
     public Test(double a){    //ABC
-        this(10);//
+        this(5);//
         System.out.println("C");
     }
 
