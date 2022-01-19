@@ -1,5 +1,5 @@
 package homework;
-
+import static homework.iPhone.*;
 public class IphoneObject {
     public static void main(String[] args) {
 
@@ -11,6 +11,12 @@ public class IphoneObject {
         iPhone2.faceTime("cross@yahoo.com");
         iPhone3.call(555667787);
         iPhone4.text(1122334);
+        iPhone1.color="Black";
+        iPhone.OS="Hello";
+
+
+
+
         System.out.println(iPhone1);
         System.out.println(iPhone2);
         System.out.println(iPhone3);
