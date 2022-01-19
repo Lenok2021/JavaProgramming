@@ -1,11 +1,12 @@
 package day33_CustomClassStatic;
-
+import static day33_CustomClassStatic.Employee.*;
 public class EmployeeObject {
     public static void main(String[] args) {
 
         Employee employee1 = new Employee();
         employee1.name = "Ahmet";
         employee1.salary = 110000;
+
 
         Employee employee2 = new Employee();
         employee2.name = "Aygun";
@@ -20,11 +21,15 @@ public class EmployeeObject {
         System.out.println( employee3.name +" : "+employee3.salary);
 
 
+        Employee.isHuman=true;
+        System.out.println(isHuman);
+        System.out.println(isAnimal);
 
         System.out.println( employee1.isHuman );
         System.out.println( employee2.isHuman );
         System.out.println( employee3.isHuman );
 
+       Employee.eat();
 
 
 

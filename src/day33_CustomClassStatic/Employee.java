@@ -8,6 +8,10 @@ public  class Employee {
    public double salary;
 
    public static boolean isHuman = true;
+   public static boolean isAnimal=false;
 
+   public static void eat(){
+       System.out.println("I eat");
+   }
 }
 
