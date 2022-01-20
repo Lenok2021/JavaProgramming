@@ -11,7 +11,7 @@ public class Car {
         this.brand = brand;
 
     }
-    public Car(String brand, String model){
+    public   Car(String brand, String model){
         this(brand);
         this.model = model;
     }
