@@ -15,9 +15,11 @@ public class Car {
         this.year = year;
         this.price = price;
     }
-    public static int numberOfWheels = 4;
-    public static boolean hasBattery = true;
-    public static boolean hasSeats = true;
+    public static int numberOfWheels=8;
+    public static boolean hasBattery;
+    public static boolean hasSeats;
+
+
 
     public void driving(){
         System.out.println(model+ " is driving");
