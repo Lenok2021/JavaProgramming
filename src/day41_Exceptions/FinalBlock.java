@@ -1,5 +1,5 @@
 package day41_Exceptions;
 
-public class FinalBlock {
+public class FinallyBlock {
 
 }
