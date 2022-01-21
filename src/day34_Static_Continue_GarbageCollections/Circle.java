@@ -26,7 +26,7 @@ public class Circle {
     // you will not get an error, but it's not a best practice
 
     static{
-        // radius = 5;  error
+        // radius = 5;  error  because radius  is instance variable
         pi=3.14;
         name = "Circle";
         numbers=new ArrayList<>();
