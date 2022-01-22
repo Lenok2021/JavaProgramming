@@ -11,6 +11,8 @@ public class FinallyBlock {
       }catch ( RuntimeException e){
           System.out.println("Catch Block");
           e.printStackTrace();
+          System.exit(0);  //  this is only time to prevent finally block will not be executed
+          // we create System.exit(o) explicitly and  terminate program
       }finally {
           System.out.println("Finally Block");
       }
