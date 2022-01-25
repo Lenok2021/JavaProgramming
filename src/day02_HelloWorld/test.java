@@ -6,7 +6,8 @@ public class test {
           String word = "hello";
         StringUtility.printEachChar(word);
 
-
+   String str = "hello";
+   str= str.toUpperCase();
 
 
     }
