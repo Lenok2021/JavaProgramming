@@ -25,10 +25,11 @@ public class CustomExceptions {
         // throw new FadyException("It's time for break");
         throw new FadyException();
         // when we have 2 Constructor we have two ways  how to create OB
-        //
+
 
 
          // throw new NoBreakException();
+
         // we get error BC is a checked Exc.
         // we don't use Throw KeyWord for checked Exc.
         // checked Exc/ does not have is a relationship with RunTime Class
