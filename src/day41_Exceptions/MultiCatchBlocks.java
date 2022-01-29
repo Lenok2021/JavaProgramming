@@ -27,7 +27,8 @@ public class MultiCatchBlocks {
         }catch (RuntimeException e){
             System.out.println("Fifth catch block");
             e.printStackTrace();
-        }
+        }  //  we cannot put the class name RunTimeException before other Classes
+        //  you can do it but you only get
 
 
         System.out.println("Tested Completed");
@@ -41,7 +42,7 @@ public class MultiCatchBlocks {
             e.printStackTrace();
         }
 
-
+        System.out.println("Hello I am here");
 
 
     }

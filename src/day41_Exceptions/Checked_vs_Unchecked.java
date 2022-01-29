@@ -9,12 +9,12 @@ public class Checked_vs_Unchecked {
 
 //1. unchecked Exception
          int a  = 10;
-         int b = 0;  //  in Java  and Math  the danamitator cannot b=0
+         int b = 0;  //  in Java  and Math  the denaminator cannot b=0
 
        // System.out.println( a/b );
            //  the compiler cannot  check  Exp.  when  I write code
-          // but  when I run code I get Exp
-         // Exp.  that  you get in RunTime = unchecked Exp.
+          // but  when I run code I get Exc.
+         // Exc.  that  you get in RunTime = unchecked Exc.
         // if I did not fix it  I will not able to
         //  Unchecked Exp.  crash  you  code
         // you will not able no get execution of next code
@@ -24,7 +24,7 @@ public class Checked_vs_Unchecked {
         // max index number    0,  1,  2
         //System.out.println(characters[99]); //  the compiler cannot check during compile time
         // we have another Object Exceptions (ArrayIndexOutOfBoundsException)
-        // if you Hava  to handle it, otherwise, you will not able to run you code
+        // if you Have  to handle it, otherwise, you will not able to run you code
 
         Student student=null; // no Object  was created
         // in order to use instance variable we need Object, but Object=null
