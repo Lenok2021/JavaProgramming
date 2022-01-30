@@ -1,27 +1,45 @@
 package day42_Exceptions;
 
+import com.sun.jdi.InternalException;
+
 public class Test {
 
-    String className;
-
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
 
-        try{
 
-            Test t = new Test();
-            if(t.className.equals("Test"))
-                System.out.print("Test ");
-            else
-                System.out.print("Other ");
 
-        }catch(Exception e){
-            System.out.print("Exception ");
+
+
+                try {
+
+                    badMethod();
+
+                    System.out.print("A");
+
+                } catch (RuntimeException ex) /* Line 10 */ {
+
+                    System.out.print("B");
+
+                } catch (Exception ex1) {
+
+                    System.out.print("C");
+
+                } finally {
+
+                    System.out.print("D");
+
+                }
+
+                System.out.print("E");
+
+            }
+
+            public static void badMethod() throws RuntimeException {
+
+
+
+            }
 
         }
 
-    }
-
-
-
-}
