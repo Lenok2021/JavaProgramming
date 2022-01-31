@@ -50,9 +50,8 @@ public abstract class Car {
         setPrice(price);
     }
 
-    public  void stop(){
-        System.out.println("Press the brake.");
-    }
+    public abstract void stop();  //  method is uncompleted
+    // child class has to complete it
 
     public abstract void start(); //  cannot  be private, final or static keyword!!!!
 
