@@ -1,6 +1,5 @@
 package utilities;
 
-import day40_FinalKeyword.AccessModifiers_Test3;
 import day40_FinalKeyword.ProtectedAccessModifier;
 
 public class Test4 extends ProtectedAccessModifier {

@@ -40,7 +40,7 @@ public class FinalVariable {
 
         //lets' call static variable
         System.out.println(FinalVariable.birthday);
-        //  FinalVariable.birthday=2002;  we CANNOT  we declare as final
+        //  FinalVariable.birthday=2002;  we CANNOT  reassign  final variable
 
 
     }
