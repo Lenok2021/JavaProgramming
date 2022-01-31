@@ -1,6 +1,6 @@
 package day43_Abstruction.Car.Employee;
 
-public class Tester extends Employee {
+public final class Tester extends Employee {
 
     public Tester(String name, int age, char gender, int ID, String jofTitle, double salary) {
         super(name, age, gender, ID, jofTitle, salary);
@@ -15,7 +15,11 @@ public class Tester extends Employee {
     public void sleep() {
         System.out.println(getName() + " sleeps 8 hours");
     }
+     // added function that only unique for testers
 
+    public void bugReport(){
+        System.out.println(getName()+ " is creating bug report");
+    }
 
 
 }
