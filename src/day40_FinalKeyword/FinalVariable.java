@@ -2,7 +2,7 @@ package day40_FinalKeyword;
 
 public class FinalVariable {
     //  final char gender;  // we got compile time error, we HAVE assign value
-    final char gender = 'M';
+    final char gender= 'M';
     // if you do not initialize before use you get ERROR
 
     final String name;  // to avoid error we create constructor
