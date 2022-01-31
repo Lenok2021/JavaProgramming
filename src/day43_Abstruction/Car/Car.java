@@ -57,5 +57,14 @@ public abstract class Car {
     public abstract void start(); //  cannot  be private, final or static keyword!!!!
 
 
-
+    @Override
+    public String toString() {
+        return "Car{" +
+                "model='" + model + '\'' +
+                ", make='" + make + '\'' +
+                ", color='" + color + '\'' +
+                ", year=" + year +
+                ", price=" + price +
+                '}';
+    }
 }
