@@ -43,9 +43,16 @@ public abstract class Person {
     // we ignore details about the method
 
 
-    public void eat() { //  but your know  that each subclass has same method, you can create regular method
+    public void eat() { //  but your know  that each subclass has same method, you can create instance method
         System.out.println(name + " is eating baklava");
     }
 
-
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                '}';
+    }
 }
