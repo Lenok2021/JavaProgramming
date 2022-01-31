@@ -28,5 +28,8 @@ public class Trow_vs_Throws {
 
     }
 
+    public static void method1() throws  InterruptedException {
+        Thread.sleep(1000);
+    }
 
 }
