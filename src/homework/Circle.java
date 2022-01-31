@@ -1,6 +1,6 @@
 package homework;
 
-public class Circle {
+public class Circle extends Throwable {
 
     public double radius;
     public static double PI = 3.14;
