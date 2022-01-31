@@ -16,12 +16,16 @@ Tesla tesla = new Tesla("Model13", "White", "London",2020,30000);
         System.out.println(honda);
         System.out.println(audi);
         System.out.println(tesla);
-
+        System.out.println("===================================================");
         //  since Color variable DOES NOT have FINAL modifier we can reassign value
         honda.setColor("Pink");
         audi.setColor("Green");
         tesla.setColor("Blue");
 
+        System.out.println(honda);
+        System.out.println(audi);
+        System.out.println(tesla);
+        System.out.println("======================================");
         System.out.println(honda.getBrand());
 
 
