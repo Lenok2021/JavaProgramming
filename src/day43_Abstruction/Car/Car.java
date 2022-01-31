@@ -50,9 +50,12 @@ public abstract class Car {
         setPrice(price);
     }
 
-    public abstract void stop();
+    public  void stop(){
+        System.out.println("Press the brake.");
+    }
 
-    public abstract void start();
+    public abstract void start(); //  cannot  be private, final or static keyword!!!!
+
 
 
 }
