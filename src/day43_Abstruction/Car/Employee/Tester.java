@@ -2,8 +2,8 @@ package day43_Abstruction.Car.Employee;
 
 public final class Tester extends Employee {
 
-    public Tester(String name, int age, char gender, int ID, String jofTitle, double salary) {
-        super(name, age, gender, ID, jofTitle, salary);
+    public Tester(String name, int age, char gender, String jofTitle, double salary) {
+        super(name, age, gender, 112233, jofTitle, salary);
     }
 
     @Override
