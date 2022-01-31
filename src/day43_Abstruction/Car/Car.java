@@ -2,10 +2,14 @@ package day43_Abstruction.Car;
 
 public abstract class Car {
 
-    private final String  model, make;
+    private final String brand, model, make;
     private  String color;
     private final int year;
     private double price;
+
+    public String getBrand() {
+        return brand;
+    }
 
     public String getModel() {
         return model;
@@ -39,7 +43,8 @@ public abstract class Car {
         this.price = price;
     }
 
-    public Car(String color, String model, String make, int year, double price) {
+    public Car(String brand, String color, String model, String make, int year, double price) {
+        this.brand=brand;
         setColor(color);
         this.model = model;
         this.make = make;
