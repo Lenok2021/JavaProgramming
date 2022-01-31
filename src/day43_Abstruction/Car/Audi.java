@@ -2,8 +2,8 @@ package day43_Abstruction.Car;
 
 public final class Audi extends Car{
 
-    public Audi(String brand,String color, String model, String make, int year, double price) {
-        super(brand,color, model, make, year, price);
+    public Audi(String color, String model, String make, int year, double price) {
+        super("Audi",color, model, make, year, price);
     }
 
     @Override
