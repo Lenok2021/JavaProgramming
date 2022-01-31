@@ -9,7 +9,7 @@ public  class Honda extends Car {
 
 
 
-    public void stop(){
+    public void stop(){  //  subclass responsible for implementation of method
         System.out.println("Very fast");
     }
     public  void start(){
