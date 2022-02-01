@@ -39,6 +39,8 @@ public class EmployeeObject {
 
         driver.sleep();
         driver.work();
+        driver.drive();
+
 
         }
 
