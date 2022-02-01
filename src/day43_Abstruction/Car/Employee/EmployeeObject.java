@@ -33,7 +33,12 @@ public class EmployeeObject {
 
         teacher.sleep();
         teacher.work();
+        teacher.meetings();
 
+        System.out.println("-------------------------------------------------------");
+
+        driver.sleep();
+        driver.work();
 
         }
 

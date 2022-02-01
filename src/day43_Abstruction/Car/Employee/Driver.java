@@ -16,4 +16,8 @@ public class Driver extends Employee {
     public void sleep() {
         System.out.println(getName()+ " sleeps 10 hours");
     }
+
+    public void drive(){
+        System.out.println(getName()+ " driving a big car");
+    }
 }
