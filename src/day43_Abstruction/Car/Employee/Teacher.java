@@ -15,4 +15,8 @@ public class Teacher  extends Employee{
     public void sleep() {
         System.out.println(getName()+ " sleeps 7 hours");
     }
+
+    public void meetings(){
+        System.out.println(getName()+ " attends meetings");
+    }
 }

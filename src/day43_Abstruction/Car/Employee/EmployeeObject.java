@@ -17,7 +17,22 @@ public class EmployeeObject {
         System.out.println(teacher);
         System.out.println(driver);
 
+        System.out.println("------------------------------------------------");
 
+        tester.work();
+        tester.sleep();
+        tester.bugReport();
+
+        System.out.println("-------------------------------------------------");
+
+        developer.sleep();
+        developer.work();
+        developer.unitTest();
+
+        System.out.println("--------------------------------------------------");
+
+        teacher.sleep();
+        teacher.work();
 
 
         }
