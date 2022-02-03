@@ -82,7 +82,7 @@ public abstract class Animal {
 
     @Override
     public String toString() {
-        return "Animal{" +
+        return getClass().getSimpleName()+"{" +  // next time you can call DOG, Cat
                 "name='" + name + '\'' +
                 ", breed='" + breed + '\'' +
                 ", gender=" + gender +
