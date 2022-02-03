@@ -1,7 +1,7 @@
 package day43Abstraction_Continue_Interface.Animal;
 
 
-class Test{
+/*class Test{
     public static void main(String[] args) {
         System.out.println(new Test().getClass().getSimpleName());
         System.out.println(new Test().getClass().getName() );
@@ -9,7 +9,9 @@ class Test{
 
 
     }
-}
+
+ */
+
 public abstract class Animal {
 
 
