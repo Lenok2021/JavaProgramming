@@ -6,4 +6,8 @@ public interface Flyable {
 
     void fly();
 
+    default void method1(){
+        System.out.println("hh");
+    }
+
 }

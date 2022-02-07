@@ -6,18 +6,28 @@ public  interface  Properties_Of_Interface {
     static int b = 200;
 
     public default void method1(){
-        System.out.println("Instance method" + a);
+        System.out.println("Default method");
     }
 
     public static void method2(){
         System.out.println("Static method");
     }
 
-   void method3();
+   void method3(); //   abstract  method
 
    }
 
 
+class Test implements Properties_Of_Interface{
 
+    @Override
+    public void method3() {
+
+    }
+
+
+
+
+}
 
 

@@ -30,4 +30,6 @@ public class Parrot extends Animal implements Playable,Flyable{
     public void play() {
 
     }
+
+
 }
