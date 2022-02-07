@@ -1,6 +1,6 @@
 package day44Abstraction_Continue_Interface.Animal;
 
-public class Parrot extends Animal implements Flyable{
+public class Parrot extends Animal implements Playable,Flyable{
 
     public Parrot(String name, String breed, char gender, int age, String size, String color) {
         super(name, breed, gender, age, size, color);
@@ -26,4 +26,8 @@ public class Parrot extends Animal implements Flyable{
     }
 
 
+    @Override
+    public void play() {
+
+    }
 }
