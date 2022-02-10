@@ -31,5 +31,8 @@ public class Parrot extends Animal implements Playable,Flyable{
 
     }
 
-
+    @Override
+    public void method1() {
+        Flyable.super.method1();
+    }
 }
