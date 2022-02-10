@@ -1,10 +1,9 @@
 package day46_Polimorphizm;
 
 import day39_Encapsulation_Inherintance_Recap.Shapes.Circle;
-import day43_Abstruction.Car.Employee.Developer;
-import day43_Abstruction.Car.Employee.Driver;
-import day43_Abstruction.Car.Employee.Teacher;
-import day43_Abstruction.Car.Employee.Tester;
+import day43_Abstruction.Car.Employee.*;
+
+import java.util.ArrayList;
 
 public class Intro {
 
@@ -28,6 +27,8 @@ public class Intro {
     Developer developer = new Developer("Elena",38,'F',"Developer",30000);
     Teacher teacher = new Teacher ("Galina",34,'F',"Math teacher",50000);
     Driver driver = new Driver("Max",45,'M',"Truck Driver",30000);
+
+     ArrayList<Person> cydeoStudents =  new ArrayList<>();
 
 
 
