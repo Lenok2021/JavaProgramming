@@ -32,9 +32,9 @@ public class MyInfo {
 
         scan.hasNextLine();
 
-        System.out.println("Enter your fill name");
+        System.out.println("Enter your full name");
         String fullName = scan.nextLine();
-
+        scan.nextLine();
         System.out.println("Enter your phone number");
         long phoneNumber = scan.nextLong();
 
