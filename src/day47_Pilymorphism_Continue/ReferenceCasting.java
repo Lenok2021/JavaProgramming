@@ -34,7 +34,7 @@ public class ReferenceCasting {
         dog.drink();
 
 
-        //  we created one Object  which has two references
+        //  we created one Object  DOG  which has two references  dog  and  animal
 
 
         System.out.println(animal.getName());
