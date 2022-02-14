@@ -1,9 +1,13 @@
 package day47_Pilymorphism_Continue;
 
+import day37_Inheritance.Cat;
 import day39_Encapsulation_Inherintance_Recap.Shapes.Circle;
 import day39_Encapsulation_Inherintance_Recap.Shapes.Shapes;
+import day39_Encapsulation_Inherintance_Recap.Shapes.Square;
+import day43_Abstruction.Car.Employee.*;
 import day44Abstraction_Continue_Interface.Animal.Animal;
 import day44Abstraction_Continue_Interface.Animal.Dog;
+import day45_Interface_Polymotfism_Intro.Cube;
 
 
 public class ReferenceCasting {
@@ -26,14 +30,47 @@ public class ReferenceCasting {
         Dog dog = (Dog) animal;  //  down-casting  // explicitly
         dog.bark();
         // animal.bark();   ERROR
-        (  (Dog) animal ).bark();
+        ((Dog) animal).bark();
         dog.drink();
 
 
         //  we created one Object  which has two references
 
+
         System.out.println(animal.getName());
         System.out.println(dog.getName());
+
+        System.out.println("==============================================");
+
+        Employee employee = new Tester("Elena", 34, 'F', "SDET", 123000);
+        ( (Tester)employee ).bugReport();
+
+     //   employee.unitTesting();  error  since  there is no is a relationship between  tester  amd developer
+      //  tester  does not have unit testing method
+      // we can call through Developer
+
+      //  ( ( Developer) employee).unitTest(); //ClassCastException
+         // there  is no is a relationship between  tester  amd developer
+
+     //   Driver driver = (Driver) employee;  //ClassCastException
+
+        Person person = (Person) employee;
+
+      //  Teacher teacher = (Teacher) employee;  //  //ClassCastException
+
+
+        System.out.println("================================================");
+
+        Shapes s1 = new  Circle(10);
+        s1.area();
+        s1.perimeter();
+        //s1.volume();  //  volume method does not exist in Circle Class
+
+        //  in order  to get access to volume method
+        //  we cannot convert to Cube
+        //  BC CUBE and Circle  does not have is a relationships
+
+
 
 
     }
