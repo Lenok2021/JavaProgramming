@@ -1,4 +1,4 @@
-package day46_Polimorphizm;
+package day46_Polimorphism;
 
 import day39_Encapsulation_Inherintance_Recap.Shapes.Circle;
 import day39_Encapsulation_Inherintance_Recap.Shapes.Rectangle;
@@ -9,8 +9,6 @@ import day44Abstraction_Continue_Interface.Animal.Animal;
 import day44Abstraction_Continue_Interface.Animal.Cat;
 import day44Abstraction_Continue_Interface.Animal.Dog;
 import day44Abstraction_Continue_Interface.Animal.Playable;
-import day45_Interface_Polymotfism_Intro.Shape;
-import day45_Interface_Polymotfism_Intro.Triangle;
 
 import java.util.ArrayList;
 
