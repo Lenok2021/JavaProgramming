@@ -5,7 +5,7 @@ import day38_Inheritance.carTask_Overidding.Car;
 import day38_Inheritance.carTask_Overidding.Tesla;
 import day38_Inheritance.carTask_Overidding.Toyota;
 
-public class PolymorphismPractice {
+public class PolymorphismPractice_Car {
 
     public static void main(String[] args) {
 
@@ -61,7 +61,7 @@ public class PolymorphismPractice {
         System.out.println("carHighestMileage = " + carHighestMileage);
         System.out.println("carWithLowestMileage = " + carWithLowestMileage);
                 
-        
+
         
         
         
