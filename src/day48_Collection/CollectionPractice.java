@@ -9,12 +9,14 @@ public class CollectionPractice {
         List<Integer> list = new ArrayList<>();
 
 
-
         List<Integer> list1 = new LinkedList<>();
 
         List<Integer> list2 = new Vector<>();
 
         List<Integer> list3 = new Stack<>();
+
+
+
 
         Vector<Integer> list4 = new Stack<>();
 
