@@ -8,6 +8,8 @@ public class ArrayMethod1 {
         System.out.println(nums); //hashcode
         System.out.println(Arrays.toString(nums)); // "{1,2,3,4,5}"
 
+
+
         System.out.println(nums[0]);
 
         /*
