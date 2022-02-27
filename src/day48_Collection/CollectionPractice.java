@@ -8,6 +8,8 @@ public class CollectionPractice {
 
         List<Integer> list = new ArrayList<>();
 
+
+
         List<Integer> list1 = new LinkedList<>();
 
         List<Integer> list2 = new Vector<>();
