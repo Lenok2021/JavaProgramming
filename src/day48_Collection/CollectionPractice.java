@@ -17,6 +17,7 @@ public class CollectionPractice {
         Vector<Integer> list4 = new Stack<>();
 
 
+
     }
 
 
