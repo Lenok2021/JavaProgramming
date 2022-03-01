@@ -30,7 +30,7 @@ public class FrequencyOfCharactersMap {
 
 
 /*
-Wirte a program that can return the freuqency of characters
+Write a program that can return the frequency of characters
         Not: MUST use map
 
         Ex: str = "bbcccaaaaa"
