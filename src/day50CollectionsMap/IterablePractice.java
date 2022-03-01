@@ -44,7 +44,7 @@ public class IterablePractice {
 
         System.out.println(it.next());// next method can get Element
 
-        // in order to get all  Elements we use while lopp
+        // in order to get all  Elements we use while loop
         */
 
         // it.has()  returns Element
