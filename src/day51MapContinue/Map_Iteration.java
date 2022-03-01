@@ -47,11 +47,11 @@ public class Map_Iteration {
         Map<String, Integer> earlyBirds = new HashMap<>();// >=90
         Map<String, Integer> angryBirds = new HashMap<>();  // < 90
 
-        for(String key : students.keySet()){
+        for (String key : students.keySet()) {
             Integer value = students.get(key);
-            if(value  >= 90){
-                earlyBirds.put(key,value);
-            }else{
+            if (value >= 90) {
+                earlyBirds.put(key, value);
+            } else {
                 angryBirds.put(key, value);
             }
         }
@@ -65,7 +65,7 @@ public class Map_Iteration {
         //  we can iterate map by value
         // since it returns  a Collection we can apply For each Loop
 
-       // Collection <Integer> scores = students.values();
+        // Collection <Integer> scores = students.values();
         List<Integer> scores = new ArrayList<>(students.values());
         System.out.println("scores = " + scores);
         // since ArrayList  has index number I  can  you for Loop
@@ -83,7 +83,7 @@ public class Map_Iteration {
 
         for (Integer score : students.values()) {
 
-            if(score > maxScore){
+            if (score > maxScore) {
                 maxScore = score;
             }
         }
@@ -95,7 +95,7 @@ public class Map_Iteration {
 
         for (Integer score : students.values()) {
 
-            if(score > minScore){
+            if (score > minScore) {
                 minScore = score;
             }
         }
@@ -119,12 +119,12 @@ public class Map_Iteration {
         System.out.println("min = " + min);
 
         System.out.println("========================================================");
-        
+
         // how many srudents has the score of 95 or greater
-        
+
         int count = 0;
         for (Integer eachScore : students.values()) {
-            if(eachScore >= 90){
+            if (eachScore >= 90) {
                 count++;
             }
 
@@ -133,11 +133,11 @@ public class Map_Iteration {
 
         System.out.println(" ====================================================");
 
+        //3.  If you  want To Iterate Map by pairs (Key + Value)
+
+        for (Map.Entry<String, Integer> eachPair : students.entrySet()) {
 
 
-
-
-
-
+        }
     }
 }
