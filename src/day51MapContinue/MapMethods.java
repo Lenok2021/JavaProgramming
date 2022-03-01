@@ -41,6 +41,8 @@ public class MapMethods {
         students.remove("Olga");
         System.out.println("students = " + students);
 
+        //5.
+
 
 
 
