@@ -1,11 +1,12 @@
-package day51MapContinue;
+package interviewQuestions;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class FrequencyOfCharactersMap {
+public class FrequnencyCharactersMap {
+
 
     public static void main(String[] args) {
 
@@ -42,4 +43,10 @@ Wirte a program that can return the freuqency of characters
  */
 
 
+
+
+
+
+
 }
+
