@@ -38,7 +38,7 @@ public class MapMethods {
 
         System.out.println("students = " + students);
 
-        //4. remove() method
+        //4. remove() method - size will be decreased
         students.remove("Olga");
         System.out.println("students = " + students);
 
