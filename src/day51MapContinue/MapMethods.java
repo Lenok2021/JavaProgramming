@@ -41,7 +41,17 @@ public class MapMethods {
         students.remove("Olga");
         System.out.println("students = " + students);
 
-        //5.
+        //5. contains ()  method
+        
+        // containsKey() =>  returns boolean
+        boolean a = students.containsKey("Muhtar");
+        boolean b = students.containsKey("Elena");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+        
+        // containsValue()
+        boolean c = students.containsValue(2000);
+        System.out.println("c = " + c);
 
 
 
