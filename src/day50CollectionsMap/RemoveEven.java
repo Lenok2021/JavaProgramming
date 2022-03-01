@@ -1,9 +1,6 @@
 package day50CollectionsMap;
 
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.LinkedHashSet;
-import java.util.Set;
+import java.util.*;
 
 public class RemoveEven {
 
@@ -23,7 +20,6 @@ public class RemoveEven {
                 it.remove();
             }
         }
-
 
 
     }
