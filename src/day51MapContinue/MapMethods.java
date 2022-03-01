@@ -39,6 +39,7 @@ public class MapMethods {
         System.out.println("students = " + students);
 
         //4. remove() method - size will be decreased
+        // we can remove by pair = return type is boolean
         students.remove("Olga");
         System.out.println("students = " + students);
 
@@ -78,6 +79,11 @@ public class MapMethods {
         map1.clear();
         System.out.println( map1.size() );
         System.out.println("map1 = " + map1);
+
+
+
+
+
 
 
     }

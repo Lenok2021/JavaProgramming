@@ -18,20 +18,27 @@ public class Map_Iteration {
         students.put("Helen", 98);
         students.put("Kate", 95);
         students.put("Layan", 76);
-
         System.out.println("students = " + students);
 
-        /*
+        //1.  I want  to print out the name of all students
+        // the student name is a kye
+        // I can Iterate my Map by using keySet()==> return type is a Set
+        // Why Set? Because key is unique, Set does not accept duplicates
+
         Set<String> keys = students.keySet();  //  get all keys from Map
 
         for (String eachKey : keys) {
-            //  System.out.println(eachKey + " : "+ students.get(eachKey));
+            System.out.println(eachKey + " : " + students.get(eachKey));
             students.replace(eachKey, students.get(eachKey) + 5);  //  increase value by one
         }
+        // when you  found the key during the Iteration you can:
 
-        */
+        //* find the value = get ( key)
+        //* you can change the value = replace ()
+        //* you can remove the value by key
 
-        //1.  Iterate Map  by keySet()
+
+        //2.  Iterate Map  by keySet()
         // remove all students who made less than 70
         // return type is  a  Set
         for (String eachKey : students.keySet()) {
@@ -136,7 +143,7 @@ public class Map_Iteration {
 
         for (Map.Entry<String, Integer> entry : students.entrySet()) {
 
-            System.out.println(entry.getKey() + " : "+ entry.getValue());
+            System.out.println(entry.getKey() + " : " + entry.getValue());
 
         }
     }
