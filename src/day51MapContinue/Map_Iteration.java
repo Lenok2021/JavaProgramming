@@ -135,8 +135,9 @@ public class Map_Iteration {
 
         //3.  If you  want To Iterate Map by pairs (Key + Value)
 
-        for (Map.Entry<String, Integer> eachPair : students.entrySet()) {
+        for (Map.Entry<String, Integer> entry : students.entrySet()) {
 
+            System.out.println(entry.getKey() + " : "+ entry.getValue());
 
         }
     }
