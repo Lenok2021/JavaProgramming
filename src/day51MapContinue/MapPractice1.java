@@ -24,7 +24,7 @@ public class MapPractice1 {
         System.out.println("employeeMap = " + employeeMap);
 
         //  1. Update the "M" to Male and "F" to Female
-        // if  you have  a Key  you  can gey a value
+        // if  you have  a Key  you  can get a value
         // at first we need to get each key  we  iterated Map  by using Key
         for (String key : employeeMap.keySet()) {
 
@@ -42,7 +42,7 @@ public class MapPractice1 {
         System.out.println("==================================================================");
 
 
-        // 2. iterate by using entrySet () method
+        // 2. Same task = iterate by using entrySet () method
 
         for (Map.Entry<String, String> entry : employeeMap.entrySet()) {
             System.out.println(entry);
@@ -50,7 +50,6 @@ public class MapPractice1 {
             if (entry.getValue().equalsIgnoreCase("m")) {
                 entry.setValue("Male");
                 //  employeeMap.replace(entry.getKey(), "Male");
-
 
             }
             if (entry.getValue().equalsIgnoreCase("f")) {
@@ -63,7 +62,7 @@ public class MapPractice1 {
         }
         System.out.println("========================================================");
 
-// 2. Display  the name of all female  Employees
+    // 2. Display  the name of all female  Employees
 
         for (Map.Entry<String, String> pair : employeeMap.entrySet()) {
 

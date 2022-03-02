@@ -20,6 +20,9 @@ public class Map_Iteration {
         students.put("Layan", 76);
         System.out.println("students = " + students);
 
+
+        // ITERATE  MAP  BY USING KEYGET () METHOD!!!!!!!!!!!!!!!!!
+
         //1.  I want  to print out the name of all students
         // the student name is a kye
         // I can Iterate my Map by using keySet()==> return type is a Set
@@ -39,19 +42,24 @@ public class Map_Iteration {
 
 
         //2.  Iterate Map  by keySet()
-        // remove all students who made less than 70
-        // return type is  a  Set
+        // Print out  all students whose score is less than 70
+        // students.keySet() = return type is  a  Set
+
         for (String eachKey : students.keySet()) {
 
             Integer eachValue = students.get(eachKey);
+
             if (eachValue < 70) {
+
                 System.out.println(eachKey);
             }
 
         }
+
         System.out.println("====================================================");
+
         Map<String, Integer> earlyBirds = new HashMap<>();// >=90
-        Map<String, Integer> angryBirds = new HashMap<>();  // < 90
+        Map<String, Integer> angryBirds = new HashMap<>();// < 90
 
         for (String key : students.keySet()) {
             Integer value = students.get(key);
@@ -66,13 +74,18 @@ public class Map_Iteration {
 
         System.out.println("===========================================================");
 
+         // ITERATE  MAP BY USING VALUE ()!!!!!!!!!!!!!!
 
-        //2/  values()  method = returns a Collection
-        //  we can iterate map by value
+
+        // values()  method = returns a Collection
+        // we can iterate map by value
         // since it returns  a Collection we can apply For each Loop
 
         // Collection <Integer> scores = students.values();
-        List<Integer> scores = new ArrayList<>(students.values());
+        // since the return type a collection I can put in a Constructor
+
+        List<Integer> scores = new ArrayList<>(students.values());//collection I can put in a Constructor
+
         System.out.println("scores = " + scores);
         // since ArrayList  has index number I  can  you for Loop
 
@@ -82,7 +95,6 @@ public class Map_Iteration {
         }
 
         System.out.println("============================================================");
-
 
         // find MAX  score
         int maxScore = Integer.MAX_VALUE;
@@ -126,7 +138,7 @@ public class Map_Iteration {
 
         System.out.println("========================================================");
 
-        // how many srudents has the score of 95 or greater
+        // how many students has the score of 95 or greater
 
         int count = 0;
         for (Integer eachScore : students.values()) {
@@ -138,6 +150,8 @@ public class Map_Iteration {
         System.out.println("count = " + count);
 
         System.out.println(" ====================================================");
+
+        // ITERATION BY ENTRY - VALUE  +  KEY!!!!!!!!!!!!!!!!!!!
 
         //3.  If you  want To Iterate Map by pairs (Key + Value)
 

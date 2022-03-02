@@ -52,6 +52,7 @@ public class MapPractice2 {
         int count = 0;
 
         for (Integer eachValue : map.values()) {
+
             if (eachValue >= 120000 && eachValue <= 150000) {
                 count++;
             }
@@ -62,7 +63,7 @@ public class MapPractice2 {
 
         System.out.println("================================================================");
 
-        // 1.4 display the names of the employees who are making less than 118k?
+        // display the names of the employees who are making less than 118k?
 
         for (Map.Entry<String, Integer> pair : map.entrySet()) {
             String name = pair.getKey();
@@ -76,7 +77,7 @@ public class MapPractice2 {
 
 
         System.out.println("===========================================================");
-        //1.5 increase the salary  employee by 10K if the current salary of Employee less that 120K
+        // increase the salary  employee by 10K if the current salary of Employee less that 120K
 
         for (Map.Entry<String, Integer> pair : map.entrySet()) {
 

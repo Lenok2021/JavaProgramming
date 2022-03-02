@@ -2,18 +2,57 @@ package day51MapContinue;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class MapMthods1 {
     public static void main(String[] args) {
 
+        Map<String, Integer> map = new LinkedHashMap<>();
+        map.put("John", 123000);
+        map.put("Antony", 100000);
+        map.put("Jimmy", 115000);
+        map.put("Jalil", 145000);
+        map.put("James", 110000);
+        map.put("Conor", 85000);
+        map.put("Josh", 117000);
+        map.put("Cory", 118000);
+        map.put("Anderson", 125000);
+        map.put("Steven", 135000);
 
-        Map<String, Integer> students = new LinkedHashMap<>();
-        students.put("Elena", 90);
-        students.put("Olga", 54);
-        students.put("Bob", 67);
-        students.put("Polina", 56);
-        students.put("John", 77);
-        students.put("Layan", 76);
+
+
+
+        //  1 who has the maximum and minimum salary?
+        String name1 = "";
+        int maxSalary = Integer.MIN_VALUE;
+
+        String name2 = "";
+        int minSalary = Integer.MAX_VALUE;
+
+        for (Map.Entry<String, Integer> pair : map.entrySet()) {
+            String eachKey = pair.getKey();
+            Integer eachValue = pair.getValue();
+
+            if (eachValue > maxSalary) {
+                maxSalary = eachValue;
+                name1 = eachKey;
+            }
+
+            if (eachValue < minSalary) {
+                minSalary = eachValue;
+                name2 = eachKey;
+            }
+
+        }
+
+        System.out.println(name1);
+        System.out.println(name2);
+
+
+        }
+
+
 
 
 
@@ -27,4 +66,4 @@ public class MapMthods1 {
 
 
 
-}
+
