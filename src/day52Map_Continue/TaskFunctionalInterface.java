@@ -52,6 +52,11 @@ public class TaskFunctionalInterface {
 
         printCubeOfNumbers.apply(5);
 
+      //4. create  a function can check is a number evenly divisible by 3 and 5 both
+
+        // you don't need () for Lambda if AM of FI passes only one parameter
+        // in this case  is an optional
+        FunctionalInterface divisibleBy3_and_5_both = num-> {System.out.println(num+ " is divisible by 3 and 5");};
 
 
 
