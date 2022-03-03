@@ -61,6 +61,10 @@ public class MapOfMap {
         scrumTeams.add (scrumTeam4);
         scrumTeams.add (scrumTeam5);
 
+        System.out.println("scrumTeams = " + scrumTeams);
+        System.out.println(scrumTeams.size());
+
+
     }
 
 
