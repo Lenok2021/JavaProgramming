@@ -39,7 +39,8 @@ public class NestedMap {
             }
 
         }
-
+            //  Each  Map  consume a lot of memory
+           //  Map of Map  or  NestedMap  consume a lot of memory
 
     }
 
