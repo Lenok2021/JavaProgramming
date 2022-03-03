@@ -12,6 +12,11 @@ public class Test2 {
 
         };
         printEach.test("Hello");
+
+        System.out.println("==================================================");
+
+
+
     }
 
 
