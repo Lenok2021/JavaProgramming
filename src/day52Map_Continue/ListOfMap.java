@@ -5,7 +5,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-public class MapOfMap {
+public class ListOfMap {
 
 
     public static void main(String[] args) {
