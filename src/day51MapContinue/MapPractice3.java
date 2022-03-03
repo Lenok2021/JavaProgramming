@@ -23,7 +23,7 @@ public class MapPractice3 {
         map.put("Anderson",125000);
         map.put("Steven", 135000);
 
-        // displays the names of all employess who has the maximum salaries
+        // displays the names of all employees who has the maximum salaries'
 /*
         int maxSalary = Integer.MIN_VALUE;
         for ( Integer eachValue : map.values() ) {
