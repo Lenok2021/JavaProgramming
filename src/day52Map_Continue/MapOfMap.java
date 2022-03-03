@@ -1,6 +1,8 @@
 package day52Map_Continue;
 
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 
 public class MapOfMap {
@@ -13,6 +15,7 @@ public class MapOfMap {
         scrumTeam1.put("Alina","Developer");
         scrumTeam1.put("Mert","PO");
         scrumTeam1.put("Lee","SDET");
+
         Map<String, String> scrumTeam2 = new LinkedHashMap<>();
         scrumTeam2.put("Anton","SDET");
         scrumTeam2.put("Muhammed","Developer");
@@ -20,6 +23,7 @@ public class MapOfMap {
         scrumTeam2.put("Ahmad","PO");
         scrumTeam2.put("Nevim","SM");
         scrumTeam2.put("Atakan","SDET");
+
         Map<String, String> scrumTeam3 = new LinkedHashMap<>();
         scrumTeam3.put("YanChun", "BA");
         scrumTeam3.put("Tahir", "Developer");
@@ -27,6 +31,7 @@ public class MapOfMap {
         scrumTeam3.put("Veronica", "Developer");
         scrumTeam3.put("Alex", "Developer");
         scrumTeam3.put("Abdulaziz", "Developer");
+
         Map<String, String> scrumTeam4 = new LinkedHashMap<>();
         scrumTeam4.put("Alim", "PO");
         scrumTeam4.put("Kaiser", "SDET");
@@ -35,6 +40,7 @@ public class MapOfMap {
         scrumTeam4.put("Sherzod", "Developer");
         scrumTeam4.put("Gulsen", "SM");
         scrumTeam4.put("David","Sdet");
+
         Map<String, String> scrumTeam5 = new LinkedHashMap<>();
         scrumTeam5.put("Elza","SDET");
         scrumTeam5.put("Mehmet","Developer");
@@ -44,10 +50,21 @@ public class MapOfMap {
         scrumTeam5.put("Tamara","SDET");
         scrumTeam5.put("Adnan","QA");
 
+        LinkedHashMap<Integer, Integer> m = new LinkedHashMap<>();
 
+       // 1.1 Create a  data structure that can contain all the given maps above
 
+        List< Map< String, String> > scrumTeams = new ArrayList<>();
+        scrumTeams.add (scrumTeam1);
+        scrumTeams.add (scrumTeam2);
+        scrumTeams.add (scrumTeam3);
+        scrumTeams.add (scrumTeam4);
+        scrumTeams.add (scrumTeam5);
 
     }
+
+
+
 }
 
 /*
