@@ -56,7 +56,12 @@ public class TaskFunctionalInterface {
 
         // you don't need () for Lambda if AM of FI passes only one parameter
         // in this case  is an optional
-        FunctionalInterface divisibleBy3_and_5_both = num-> {System.out.println(num+ " is divisible by 3 and 5");};
+        FunctionalInterface divisibleBy3_and_5_both = num-> {
+            if(num % 15 ==0){
+                System.out.println(num+ " is divisible by 3 and 5");
+            }else{
+                System.out.println(num+ " is not disible by 3 and 5");
+            }};
 
 
 
