@@ -17,7 +17,7 @@ public interface FunctionalInterface {
     //2. how provide implement = Lambda Exp.
     //3. not for inheritance purpose
     //4. FI can only have 1 abstract method
-
+    // FI  is  using as a FUNCTION  as  a METHOD
 
     //regular I  provides add. methods,  implementation = method overriding
 
