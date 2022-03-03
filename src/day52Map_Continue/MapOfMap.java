@@ -50,7 +50,6 @@ public class MapOfMap {
         scrumTeam5.put("Tamara","SDET");
         scrumTeam5.put("Adnan","QA");
 
-        LinkedHashMap<Integer, Integer> m = new LinkedHashMap<>();
 
        // 1.1 Create a  data structure that can contain all the given maps above
 
@@ -64,7 +63,58 @@ public class MapOfMap {
         System.out.println("scrumTeams = " + scrumTeams);
         System.out.println(scrumTeams.size());
 
+        System.out.println("===============================================================");
 
+        // print the names of all employees:
+
+        for(Map<String, String> eachScrumTeam  :  scrumTeams){
+            for (Map.Entry<String, String> entry : eachScrumTeam.entrySet()) {
+                System.out.println(entry.getKey() +" : "+entry.getValue());
+            }
+        }
+
+        System.out.println("-------------------------------------------------------------");
+
+        //  1.2 Print the names of all scrum masters
+
+        for(Map<String, String> eachScrumTeam  :  scrumTeams) {
+
+            /*
+            for (String name : eachScrumTeam.keySet()) {
+                if(eachScrumTeam.get(name).equals("SM") ){
+                    System.out.println(name);
+                }
+            }
+             */
+            for (Map.Entry<String, String> pair : eachScrumTeam.entrySet()) {
+                if (pair.getValue().equals("SM")) {
+                    System.out.println(pair.getKey());
+                }
+            }
+
+        }
+
+        System.out.println("-------------------------------------------------");
+
+
+        //    1.3 Print the names of all Developers
+
+        for(Map<String, String> eachScrumTeam  :  scrumTeams) {
+
+            /*
+            for (String name : eachScrumTeam.keySet()) {
+                if(eachScrumTeam.get(name).equals("SM") ){
+                    System.out.println(name);
+                }
+            }
+             */
+            for (Map.Entry<String, String> pair : eachScrumTeam.entrySet()) {
+                if (pair.getValue().equals("Developer")) {
+                    System.out.println(pair.getKey());
+                }
+            }
+
+        }
     }
 
 
