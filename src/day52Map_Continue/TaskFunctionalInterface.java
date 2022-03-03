@@ -18,6 +18,9 @@ public class TaskFunctionalInterface {
         // we can provide the implementation by using Lambda Exp.
         // () ->{   } = Lambda EXp.
         // if your FI  has apr.  you have to provide the character (name) in Lambda Exp.
+        // you don't need () for Lambda if AM of FI passes only one parameter
+        // in this case  is an optional
+
 
         FunctionalInterface oddEvenNumber = (n) ->{
             if(n%2 ==0){
@@ -48,6 +51,9 @@ public class TaskFunctionalInterface {
         FunctionalInterface printCubeOfNumbers = (a) ->{System.out.println(a*a*a);};
 
         printCubeOfNumbers.apply(5);
+
+
+
 
 
     }
