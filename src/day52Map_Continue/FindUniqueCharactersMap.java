@@ -25,7 +25,7 @@ public class FindUniqueCharactersMap {
         for (String each : arr) {
 
            int frequency = Collections.frequency(Arrays.asList(arr), each);
-            // Collections.frequency  = method accept coll type that's why we convert arr to collection type
+            // Collections.frequency  = method accept collection type type that's why we convert arr to collection type
 
             if(frequency ==1){
                 result.put(each,1);  //  if condition == 1 we passed 1
